@@ -3912,3 +3912,13 @@ input, select, textarea {
 		.skills {
 			color: rgb(242, 242, 242);
 		}
+
+		p {
+			color: white;
+		}
+
+		@media screen and (max-width: 736px) {
+			.imagenesport {
+				width: 100%;
+			}
+		}
