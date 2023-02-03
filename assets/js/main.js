@@ -191,16 +191,20 @@
 
 var typed = new Typed('.typed', {
 	strings: [
-		'<i class="skills">Developer</i>',
+		'<i class="skills">Developer with 3 years of experience</i>',
+		'<i class="skills">Frontend Developer</i>',
 		'<i class="skills">Software Engineer</i>',
+		'<i class="skills">Backend Developer</i>',
+		'<i class="skills">Web scraper</i>',
 		'<i class="skills">UX/UI Designer</i>',
 		'<i class="skills">QA Tester</i>',
-		'<i class="skills">React Developer</i>',
+		'<i class="skills">MERN Developer</i>',
+		'<i class="skills">FullStack Developer</i>',
 	],
 	//stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
-	typeSpeed: 75, // Velocidad en mlisegundos para poner una letra,
+	typeSpeed: 45, // Velocidad en mlisegundos para poner una letra,
 	startDelay: 300, // Tiempo de retraso en iniciar la animacion. Aplica tambien cuando termina y vuelve a iniciar,
-	backSpeed: 75, // Velocidad en milisegundos para borrrar una letra,
+	backSpeed: 45, // Velocidad en milisegundos para borrrar una letra,
 	smartBackspace: true, // Eliminar solamente las palabras que sean nuevas en una cadena de texto.
 	shuffle: false, // Alterar el orden en el que escribe las palabras.
 	backDelay: 1500, // Tiempo de espera despues de que termina de escribir una palabra.
